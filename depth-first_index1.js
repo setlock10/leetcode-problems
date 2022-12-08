@@ -16,7 +16,7 @@ function TreeNode(val, left, right) {
     if(!node) return;
     console.log(node.val);
     dfs(node.left);
-    dfs(node.right)
+    dfs(node.right);
   }
   
   dfs(rootNode);
